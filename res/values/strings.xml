@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BatteryRecycling</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- 首页 -->
+     <string name="main_recycle_square">回收广场</string>
+     <string name="main_mall">环保商场</string>
+     <string name="main_kindme">有爱的我</string>
+     
+     
+
+    <!-- 登陆界面 -->
+    <string name="login_cancel">取消</string>
+    <string name="login_login">登陆</string>
+    <string name="login_speed">快速注册</string>
+    <string name="login_findpassword">找回密码</string>
+    <string name="hint_phone">请输入手机号码</string>
+    <string name="hint_password">请输入密码</string>
+    
+    
+    
+    <!-- 注册界面 -->
+    <string name="register">注册</string>
+	<string name="register_phone">手机号:</string>
+	<string name="register_length">密码由6&#8211;20位数字字母组成，区分大小写</string>
+	<string name="register_next">下一步</string>
+	
+	<string name="register_image">个人头像:</string>
+	<string name="register_name">用户昵称:</string>
+	<string name="register_location">所在地区:</string>
+	<string name="register_address">详细地址:</string>
+	<string name="register_done">完成</string>
+	
+	<string name="register_success">注册成功！</string>
+	<string name="go_login">赶紧去登陆吧</string>
+	
+	<!-- 有爱的我 -->
+	<string name="youai_edit">编辑资料</string>
+	<string name="youai_shopping_list">购物订单</string>
+	<string name="youai_daishouhuo">代收货</string>
+	<string name="youai_daipingjia">待评价</string>
+	<string name="youai_tuikuan">退款</string>
+	<string name="youai_daifukuan">待付款</string>
+	<string name="youai_fabu_list">发布电池订单</string>
+	<string name="youai_huishou_list">回收电池订单</string>
+	<string name="youai_my_data">我的爱心数据</string>
+	<string name="youai_my_money">我的钱包</string>
+	<string name="youai_my_huanbaobi">我的环保币</string>
+	<string name="youai_my_collection">收藏商品</string>
+	<string name="youai_shenqing">申请成为回收商</string>
+	<string name="youai_setting_place">设置回收价格</string>
+	
+	<!-- 回收广场 -->
+	<string name="huishou_menber">位环保君加入我们！</string>
+	<string name="huishou_dianchi">共回收电池：</string>
+	<string name="huishou_total_money">共累积财富：</string>
+	<string name="huishou_greenarea">共维护地球君绿地：</string>
+	<string name="huishou_batteryInfo">发布手中废旧电池信息</string>
+	<string name="huishou_message1">1,平台自动匹配最合适的电池回收商，回收商可以接受到订单会第一时间联系您。</string>
+	<string name="huishou_message2">2，预计回收价格会有少许的浮动。</string>
+	<string name="huishou_shuoming">回收说明：</string>
+	
+	
+	<!-- 环保商城 -->
+	<string name="mall_interesting">请输入你感兴趣的商品</string>
+	<string name="mall_leimu1">类目A</string>
+	<string name="mall_leimu2">类目B</string>
+	<string name="mall_leimu3">类目C</string>
+	<string name="mall_leimu4">类目D</string>
+	
+	
+	
+	<color name="tab_text">#a2a2a2</color>
+	<color name="login_title">#6ac85c</color>
+	<color name="huishou_member">#c5cb1a</color>
+    <color name="login_textcolor">#ffffff</color>
+    <color name="register_textcolor">#737373</color>
+	<color name="line_thick">#eeeeee</color>
+	
+</resources>

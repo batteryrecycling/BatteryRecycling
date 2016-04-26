@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/include_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/register_image"
+            android:textColor="@color/register_textcolor"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/morentouxiang" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_thin_grayline" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/register_name"
+            android:textColor="@color/register_textcolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:background="@null"
+            android:textColor="#272636"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_thin_grayline" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/register_location"
+            android:textColor="@color/register_textcolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/et_userarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:background="@null"
+            android:textColor="#272636"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_thin_grayline" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/register_address"
+            android:textColor="@color/register_textcolor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/et_useraddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:background="@null"
+            android:textColor="#272636"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_thin_grayline" />
+
+    <Button
+        android:id="@+id/btn_register_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/login_title"
+        android:text="@string/register_done"
+        android:textColor="@color/login_textcolor" />
+
+</LinearLayout>

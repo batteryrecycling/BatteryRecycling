@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.googlebottomfragment.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#22292c"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_main_huishou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_selector_square_bg"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="@string/main_recycle_square"
+            android:textColor="@color/tab_selector_textcolor" />
+
+        <RadioButton
+            android:id="@+id/rb_main_mall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_selector_mall_bg"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="@string/main_mall"
+            android:textColor="@color/tab_selector_textcolor" />
+
+        <RadioButton
+            android:id="@+id/rb_main_youai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_selector_youai_bg"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="@string/main_kindme"
+            android:textColor="@color/tab_selector_textcolor" />
+    </RadioGroup>
+
+</LinearLayout>
